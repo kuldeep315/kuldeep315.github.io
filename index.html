@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e5c434e50.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class="container">
+            <nav>
+                <img src="img/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Kuldeep</span> Singh<br>From Agra, India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/me.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi!!
+                        I am kuldeep... C/C++, Java, Python is my hand on proficient language. 
+                        I am really interested in web development, Fully skilled in Frontend 
+                        development looking forward to Backend connectivity. I also interested 
+                        in Graphics Designing. I recently completed 30 days of Google cloud. 
+                        I'm hardworking with good verbal & written communication skills. 
+                        Always looking for learning new technology and grabbing opportunities.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Web app Development</li>
+                                <li><span>Graphics Designer</span><br>Desigining Web/app Interface</li>
+                                <li><span>C/C++, Java</span><br>Software Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>July 2022 - Sept 2022</span><br>Salesforce Developer Virtual Internship at Smart Internz.</li>
+                                <li><span>Dec 2020 - Feb 2021</span><br>Web Developing Student Intern at SmartKnower.</li>
+                                <li><span>Jun 2020 - Nov 2020</span><br>COVID-19 Teach from home at Internshala.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>B.Tech (ELECTRONICS) from AKTU</li>
+                                <li><span>2018</span><br>Intermediate from Kendriya Vidyalaya OEF Hazratpur.</li>
+                                <li><span>2016</span><br>Highschool from Kendriya Vidyalaya OEF Hazratpur.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------Services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I have some experience in Web Desgining, already desgined some of E-commerse website,
+                        my Portfolio and some desgined while during the Internship. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphics Design</h2>
+                    <p>I have good knowledge in graphics desgining, during the college fest I desgine so many
+                        poster and flex for the event.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chalkboard-user"></i> 
+                    <h2>Online Teaching</h2>
+                    <p>During the Lockdown I have the experienceof Online Teaching and easily handle the all subject 
+                        from Class 6th to 10th and Mathematics for Class 11 and 12. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/sp.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>This is website for a store name is LifeStyle in which you can purchase 
+                            daily life product. It consist of Frontendand and Backend connectivity. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/burger.jpg">
+                    <div class="layer">
+                        <h3>Restaurant Website</h3>
+                        <p>This is website for a restaurant name is Street Food in which you can purchase 
+                            any food items product. It consist of Frontendand and Backend connectivity. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/clock.jpg">
+                    <div class="layer">
+                        <h3>Digital Clock</h3>
+                        <p>This is a java based project in wwhich basically I built a digitl clock app which 
+                            shows the correct date time and day.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------contact------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-envelope"></i>kuldeepsingh43169@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8445186418</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100046038201382" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/kuldeepsingh7468/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kuldeepsingh17" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/MZPJBM3TB56WH1" target="_blank"><i class="fa-brands fa-square-whatsapp" target="_blank"></i></a>
+                    </div>
+                    <a href="img/Final Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div> 
+        <div class="copyright">
+            <p>Copyright © Kuldeep Singh.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxogZGYbsnCuBeTu986rEuYP3BJd-_tL0gCtosnsFn3fhhV6TQcsKqHizMq1olchxAU-A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
